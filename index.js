@@ -12,14 +12,16 @@ fetch('https://shadowworld.herokuapp.com/pic/allpic')
 const displayData = (data) => {
     data.map((value, index) => {
         return document.getElementById("imageCard").innerHTML +=
-            `<div class="bx">
-    <div class="card" id:"img"> <img class="card-img" src="${value.links}" alt="" height="250px" width="350px">
-        <div class="card-img-overlay">
-            <div class="bottom-text">
-                <h5 class="card-title" >${value.name}</h5>
+            `
+<div class="col-sm-4 p-4">
+ <div class="card"> <img class="card-img" src="${value.links}" width="225px" height="357px" alt="">
+                <div class="card-img-overlay">
+                  <div class="bottom-text">
+                    <p class="card-text">${value.name}</p>
+                  </div>
+                </div>
+              </div>
             </div>
-        </div>
-    </div>
-</div>`
+          </div>`
     })
 }
