@@ -12,7 +12,7 @@ fetch('https://shadowworld.herokuapp.com/pic/allpic')
 const displayData = (data) => {
     data.map((value, index) => {
         return document.getElementById("imageCard").innerHTML +=
-            `<div class="bx bx-1">
+            `<div class="bx">
     <div class="card" id:"img"> <img class="card-img" src="${value.links}" alt="" height="250px" width="350px">
         <div class="card-img-overlay">
             <div class="bottom-text">
