@@ -7,7 +7,7 @@ button.addEventListener('click', (event) => {
     let imageLink = document.getElementById('imageLink').value
 
     let data = {
-        placename,
+        name:placename,
         links: imageLink,
     }
 
