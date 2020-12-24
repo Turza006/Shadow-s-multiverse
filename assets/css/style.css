@@ -477,7 +477,7 @@ h2 {
   .fh5co-portfolio .bx {
     float: left;
     padding: 7px; }
-  @media (max-width: 991px) {
+  @media () {
     .fh5co-portfolio ,.fh5co-portfolio .bx-4 {
       width: 32.5%; }
     .fh5co-portfolio .bx-2 {
